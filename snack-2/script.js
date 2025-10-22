@@ -6,3 +6,6 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+console.log("Tutti i nomi nell'array di oggetti 'people':");
+people.forEach((name) => console.log(name['name']))
